@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "content": "We like to go to The Fairway every time we come to the Cape. The food is always delicious! This is the first year we could make reservations (probably due to spacing because of the virus). Our waitress, Casey, was great! Or The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying food from here. The best pizza ever.",
+      "author": {
+        "name": "Alex kane",
+        "location": "Ottawa, Canada"
+      }
+    },
+    {
+      "id": 2,
+      "content": "We like to go to The Fairway every time we come to the Cape. The food is always delicious! This is the first year we could make reservations (probably due to spacing because of the virus). Our waitress, Casey, was great! Or The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying food from here. The best pizza ever.",
+      "author": {
+        "name": "Alex kane",
+        "location": "Ottawa, Canada"
+      }
+    },
+    {
+      "id": 3,
+      "content": "We like to go to The Fairway every time we come to the Cape. The food is always delicious! This is the first year we could make reservations (probably due to spacing because of the virus). Our waitress, Casey, was great! Or The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying food from here. The best pizza ever.",
+      "author": {
+        "name": "Alex kane",
+        "location": "Ottawa, Canada"
+      }
+    },
+    {
+      "id": 4,
+      "content": "We like to go to The Fairway every time we come to the Cape. The food is always delicious! This is the first year we could make reservations (probably due to spacing because of the virus). Our waitress, Casey, was great! Or The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying food from here. The best pizza ever.",
+      "author": {
+        "name": "Alex kane",
+        "location": "Ottawa, Canada"
+      }
+    }
+  ]
+}

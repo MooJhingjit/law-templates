@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Family Law",
+      "description": "Navigating the complexities of divorce, child custody, and spousal support",
+      "icon": "/harrison/family.png"
+    },
+    {
+      "id": 2,
+      "title": "Personal Injury",
+      "description": "Securing compensation for injuries resulting from someonelses negligence",
+      "icon": "/harrison/injured-person.png"
+    },
+    {
+      "id": 3,
+      "title": "Real Estate Law",
+      "description": "Residential and commercial property transaction & landlord-tenent disputes",
+      "icon": "/harrison/realestate-law.png"
+    },
+    {
+      "id": 4,
+      "title": "Estate Planning",
+      "description": "Protecting your legacy and ensuring your loved ones are taken care of",
+      "icon": "/harrison/estate-planning.png"
+    },
+    {
+      "id": 5,
+      "title": "Criminal Defense",
+      "description": "Vigorously defending your rights in the face of criminal charges",
+      "icon": "/harrison/criminal-defence.png"
+    },
+    {
+      "id": 6,
+      "title": "Business Law",
+      "description": "Assisting business, from startups to established companies, in all legal matters",
+      "icon": "/harrison/business-law.png"
+    }
+  ]
+}

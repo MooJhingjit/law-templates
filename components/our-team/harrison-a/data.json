@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Ben Jonson",
+      "position": "lawyer & CEO",
+      "image": "/harrison/team-member-1.png",
+      "bio": "Securing compensation for injuries resulting from someoneelses negligence"
+    },
+    {
+      "id": 2,
+      "name": "Ben Jonson",
+      "position": "lawyer & CEO",
+      "image": "/harrison/team-member-2.png",
+      "bio": "Securing compensation for injuries resulting from someoneelses negligence"
+    },
+    {
+      "id": 3,
+      "name": "Ben Jonson",
+      "position": "lawyer & CEO",
+      "image": "/harrison/team-member-3.png",
+      "bio": "Securing compensation for injuries resulting from someoneelses negligence"
+    },
+    {
+      "id": 4,
+      "name": "Ben Jonson",
+      "position": "lawyer & CEO",
+      "image": "/harrison/team-member-4.png",
+      "bio": "Securing compensation for injuries resulting from someoneelses negligence"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "relatedData": [
+    {
+      "id": 1,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 2,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 3,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 4,
+      "title": "How to design a that can grow itself year, how to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year-how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 5,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 6,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 2,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 3,
+      "title": "How to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    },
+    {
+      "id": 4,
+      "title": "How to design a that can grow itself year, how to design a that can grow itself year",
+      "slug": "how-to-design-a-that-can-grow-itself-year-how-to-design-a-that-can-grow-itself-year",
+      "description": "Understanding color theory: the color wheel and finding complementary colors",
+      "image": "/harrison/legal-image-1.png",
+      "author": {
+        "name": "Cooper, Kristin",
+        "image": "/harrison/team-member-1.png",
+        "createdAt": "Tue Dec 17 2024 11:10:28 GMT+0700"
+      }
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Corporate law", "slug": "corporate-law" },
+    {
+      "id": 2,
+      "name": "Criminal law",
+      "slug": "criminal-law"
+    },
+    {
+      "id": 3,
+      "name": "Family law",
+      "slug": "family-law"
+    },
+    {
+      "id": 4,
+      "name": "Intellectual property law",
+      "slug": "intellectual-property-law"
+    },
+    {
+      "id": 5,
+      "name": "Personal injury law",
+      "slug": "personal-injury-law"
+    },
+    {
+      "id": 6,
+      "name": "Real estate law",
+      "slug": "real-estate-law"
+    }
+  ]
+}

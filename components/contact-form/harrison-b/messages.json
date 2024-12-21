@@ -1,0 +1,17 @@
+{
+  "en": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "th": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "fr": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone"
+  }
+}

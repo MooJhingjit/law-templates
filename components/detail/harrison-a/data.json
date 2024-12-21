@@ -1,0 +1,90 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "name": "Domestic Violence",
+      "slug": "domestic-violence"
+    },
+    {
+      "id": 2,
+      "name": "Drug Crimes",
+      "slug": "drug-crimes"
+    },
+    {
+      "id": 3,
+      "name": "Drug Possession",
+      "slug": "drug-possession"
+    },
+    {
+      "id": 4,
+      "name": "DUI",
+      "slug": "dui"
+    },
+    {
+      "id": 5,
+      "name": "DUI FAQS",
+      "slug": "dui-faqs"
+    },
+    {
+      "id": 6,
+      "name": "Probation Violations",
+      "slug": "probation-violations"
+    },
+    {
+      "id": 7,
+      "name": "Others",
+      "slug": "others"
+    },
+    {
+      "id": 8,
+      "name": "Divorce",
+      "slug": "divorce"
+    },
+    {
+      "id": 9,
+      "name": "Spousal",
+      "slug": "spousal"
+    },
+    {
+      "id": 10,
+      "name": "Crimes",
+      "slug": "crimes"
+    },
+    {
+      "id": 11,
+      "name": "Domestic",
+      "slug": "domestic"
+    },
+    {
+      "id": 12,
+      "name": "Violations",
+      "slug": "violations"
+    },
+    {
+      "id": 13,
+      "name": "Adoption",
+      "slug": "adoption"
+    },
+    {
+      "id": 14,
+      "name": "Child Custody",
+      "slug": "child-custody"
+    },
+    {
+      "id": 15,
+      "name": "Child Support",
+      "slug": "child-support"
+    }
+  ],
+  "tag": {
+    "id": 2,
+    "name": "Drug Crimes",
+    "slug": "drug-crimes"
+  },
+  "data": {
+    "id": 1,
+    "title": "Resolving family disputes so you can start a new chapter",
+    "slug": "resolving-family-disputes-so-you-can-start-a-new-chapter",
+    "content": "<div style='font-family: Poppins, sans-serif; color: #12273a; line-height: 1.6;'><div style='margin-bottom: 20px;'> <h3 style='font-size: 20px; font-weight: 600; margin-bottom: 10px;'>Divorce</h3> <p style='font-size: 16px; color: #636571; margin: 0;'>Divorce is difficult for families. When you and your spouse are unable to reach a resolution, we understand your concerns and needs and are available to personally assist you through the process, to resolve your divorce amicably or represent your interests aggressively.</p> </div> <div style='margin-bottom: 20px;'> <h3 style='font-size: 20px; font-weight: 600; margin-bottom: 10px;'>Spousal support (alimony)</h3> <p style='font-size: 16px; color: #636571; margin: 0;'>The court may award spousal support or alimony in cases wherein one spouse is at a disadvantage financially and has a need for assistance from the other spouse and the other spouse has the ability to assist financially. Whether we represent the party in need of support or being required to pay support, we will represent your interests to assure you are treated fairly and consistent with the requirements of the law.</p> </div> <div style='margin-bottom: 20px;'> <h3 style='font-size: 20px; font-weight: 600; margin-bottom: 10px;'>Child custody & visitation</h3> <p style='font-size: 16px; color: #636571; margin: 0;'>The court always rules with the best interests of the child in mind. We can help you and your former spouse develop a fair and accurate Permanent Parenting Plan that will give the court all the information it needs to help determine the best child custody arrangement for all concerned.</p> </div> <div style='margin-bottom: 20px;'> <h3 style='font-size: 20px; font-weight: 600; margin-bottom: 10px;'>Modification of child support</h3> <p style='font-size: 16px; color: #636571; margin: 0;'>If your circumstances have changed significantly since the divorce decree, you can request a modification of the order for child support. Our family law attorneys present a strong case on your behalf and work to get the changes you need.</p> </div> <div style='margin-bottom: 20px;'> <h3 style='font-size: 20px; font-weight: 600; margin-bottom: 10px;'>Adoptions</h3> <p style='font-size: 16px; color: #636571; margin: 0;'>If you are looking to expand your family through adoption, we help you make that dream come true and help you change a child's life forever.</p> </div> </div>"
+  }
+}
