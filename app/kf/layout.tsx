@@ -2,7 +2,7 @@ import { Lora } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 // import Nav from "./home/nav";
-import Navbar from "./home/navigation/component/Navbar";
+import Navbar from "./navigation/component/Navbar";
 
 const lora = Lora({ subsets: ["latin"] });
 

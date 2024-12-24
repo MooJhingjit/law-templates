@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import InvestmentSlider from "./investment-slider";
 
@@ -10,7 +9,7 @@ const Investment = () => {
           Top Investment Areas in Dubai
         </h2>
         <p className="text-lg sm:text-3xl mb-10 text-[#FFB944] ">
-          Access exclusive luxury properties in Dubai's most sought-after
+          Access exclusive luxury properties in Dubai&apos;s most sought-after
           locations
         </p>
         <InvestmentSlider />

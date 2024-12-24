@@ -18,7 +18,7 @@ export function Navigation() {
       <NavigationMenu>
         <NavigationMenuList className="gap-24">
           <NavigationMenuItem>
-            <NavigationMenuTrigger triggerMode="click" className="flex items-center gap-1">
+            <NavigationMenuTrigger  className="flex items-center gap-1">
               Areas
               <ChevronDown className="w-4 h-4" />
             </NavigationMenuTrigger>

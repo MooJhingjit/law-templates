@@ -32,7 +32,7 @@ const Hero = () => {
             }}
           >
             Destination Dubai by Knight Frank delivers exclusive insights into
-            Dubai's most profitable real estate hotspots.
+            Dubai&apos;s most profitable real estate hotspots.
           </p>
           {/* Call to Action Button */}
           <button className="bg-[#FFB944] text-xl text-[#0D1B2A]   py-2 rounded-full shadow-md px-8 md:px-20 w-full md:w-auto">
