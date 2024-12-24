@@ -56,7 +56,7 @@ export function Navigation() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <button className="bg-white   text-[#1E1E1E] py-1.5 px-6 rounded-full shadow-md">
+      <button className="bg-white   text-[#1E1E1E] py-1.5 px-6 rounded-full shadow-md h-[44px]">
         Contact Us
       </button>
     </div>

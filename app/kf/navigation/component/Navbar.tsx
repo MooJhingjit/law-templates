@@ -21,7 +21,7 @@ export default function Navbar() {
               </Link>
 
             </div>
-            <div className="hidden md:block  flex-1 px-20">
+            <div className="hidden lg:block  flex-1 px-20">
               <Navigation />
             </div>
             <div className="w-auto flex items-center  flex-0">
@@ -50,8 +50,8 @@ export default function Navbar() {
                   <Image
                     src="/du/text-logo.png"
                     alt="Knight Frank"
-                    width={100}
-                    height={50}
+                    width={106}
+                    height={37}
                   />
                 </div>
               </div>

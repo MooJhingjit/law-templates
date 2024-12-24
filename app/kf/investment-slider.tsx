@@ -28,7 +28,17 @@ const InvestmentSlider = () => {
     return (
         <Swiper
             spaceBetween={30}
-            slidesPerView={3.3}
+            // slidesPerView={3.3}
+            breakpoints={{
+                376: {
+                  // width: 576,
+                  slidesPerView: 2.3,
+                },
+                1024: {
+                  // width: 768,
+                  slidesPerView: 3.3,
+                },
+              }}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
