@@ -1,27 +1,23 @@
 import Breadcrumbs from '@/components/shared/harrison/breadcrumb'
 import { SectionContainer } from '@/components/shared/harrison/section-container'
-import messages from './messages.json'
 import Link from 'next/link'
 import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react'
 import Image from 'next/image'
+import main, { QueryProps } from './queries'
 
 type Props = {
-  title: string
-  content: string
-  author: {
-    name: string
-    createdAt: string
-    image: string
-  }
+  queryProps: QueryProps
 }
 
-export const DetailHarrisonB = () => {
-  const { content, title, author } = messages
-  return <_DetailHarrisonB content={content} title={title} author={author} />
+export const DetailHarrisonB = async () => {
+  const queryProps = await main()
+  return <_DetailHarrisonB queryProps={queryProps} />
 }
 
 export const _DetailHarrisonB = (props: Props) => {
-  const { title, content, author } = props
+  const { queryProps } = props
+  const { data } = queryProps
+  const { title, content, author } = data
   return (
     <section>
       <SectionContainer>

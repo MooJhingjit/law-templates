@@ -79,7 +79,7 @@ export const _FooterHarrisonA = (props: Props) => {
               <ul className="flex-col justify-start items-start gap-2.5 flex">
                 {routes.map((route) => (
                   <li key={route.name} className=" text-sm font-semibold  leading-normal tracking-tight">
-                    <Link href={route.href} className="inline-block text-sm text-gray-900 hover:text-white font-medium">
+                    <Link href={route.href} className="inline-block text-sm hover:text-gray-900 text-white font-medium">
                       {route.name}
                     </Link>{' '}
                   </li>
@@ -93,7 +93,7 @@ export const _FooterHarrisonA = (props: Props) => {
                   <div key={feature.name} className="text-white text-sm font-semibold  leading-normal tracking-tight">
                     <Link
                       href={feature.href}
-                      className="inline-block text-sm text-gray-900 hover:text-white font-medium"
+                      className="inline-block text-sm hover:text-gray-900 text-white font-medium"
                     >
                       {feature.name}
                     </Link>
@@ -108,7 +108,7 @@ export const _FooterHarrisonA = (props: Props) => {
                   <div key={resource.name} className="text-white text-sm font-semibold  leading-normal tracking-tight">
                     <Link
                       href={resource.href}
-                      className="inline-block text-sm text-gray-900 hover:text-white font-medium"
+                      className="inline-block text-sm hover:text-gray-900 text-white font-medium"
                     >
                       {resource.name}
                     </Link>

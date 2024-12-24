@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { AspectRatio } from '@/components/ui/aspect-ratio'
 import { SectionContainer } from '@/components/shared/harrison/section-container'
 import Link from 'next/link'
+import main, { QueryProps } from './queries'
 
 type Props = {
   dynamicProps: {
@@ -13,9 +14,10 @@ type Props = {
     actionLabel: string
     actionUrl: string
   }
+  queryProps: QueryProps
 }
 
-export const HeroHarrisonA = () => {
+export const HeroHarrisonA = async () => {
   const dynamicProps = {
     backgroundImage: '/harrison/3d-courtroom-scene-lawyer.png',
     image: '/harrison/view-3d-justice-scales.png',
@@ -26,21 +28,23 @@ export const HeroHarrisonA = () => {
     actionLabel: 'Free Case Evaluation',
     actionUrl: '#',
   }
-  return <_HeroHarrisonA dynamicProps={dynamicProps} />
+  const queryProps = await main()
+
+  return <_HeroHarrisonA dynamicProps={dynamicProps} queryProps={queryProps} />
 }
 
 const _HeroHarrisonA = (props: Props) => {
-  const { dynamicProps } = props
+  const { dynamicProps, queryProps } = props
   const { backgroundImage, image, bagde, title, description, actionLabel, actionUrl } = dynamicProps
   return (
     <section
-      className="py-6 lg:py-24 bg-no-repeat bg-cover"
+      className="py-10 lg:py-0 bg-no-repeat bg-cover"
       style={{
         backgroundImage: `url('${backgroundImage || ''}')`,
       }}
     >
       <SectionContainer>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="lg:pt-28 grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 order-2 lg:order-1">
             <div className="px-5 py-2 mb-4 bg-red-500 rounded-3xl shadow justify-center items-center inline-flex">
               <div className="text-white  font-medium capitalize">{bagde}</div>
@@ -62,6 +66,19 @@ const _HeroHarrisonA = (props: Props) => {
               <Image src={image} alt="Photo by Drew Beamer" fill className="h-full w-full rounded-lg object-cover" />
             </AspectRatio>
           </div>
+        </div>
+        <div className="transform lg:translate-y-1/2 bg-white shadow border border-black/10 px-6 lg:px-14 container py-6 mt-8 lg:mt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 rounded-md">
+          {queryProps.data.map((item) => (
+            <div key={item.id} className="flex items-center space-x-2 grow">
+              <div className="bg-red-500 p-4 rounded-full">
+                <Image src={item.icon} width={25} height={25} alt={item.value} />
+              </div>
+              <div>
+                <div className="text-bold text-2xl font-bold">{item.value}</div>
+                <div className="text-gray-500 text-md font-normal">{item.description}</div>
+              </div>
+            </div>
+          ))}
         </div>
       </SectionContainer>
     </section>

@@ -62,10 +62,10 @@ const ContactFormHarrisonAChild = (props: Props) => {
   const _trans = messages.en
 
   return (
-    <section className="mb-24">
-      <div className="bg-[rgb(18,39,58)] pt-6">
+    <section className="mb-60">
+      <div className="bg-[rgb(18,39,58)]">
         <SectionContainer>
-          <div className="block md:flex justify-center translate-y-16">
+          <div className="block md:flex justify-center translate-y-48">
             <Image
               width={364}
               height={563}

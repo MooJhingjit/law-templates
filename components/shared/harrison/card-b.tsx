@@ -16,16 +16,17 @@ type Props = {
     createdAt: string
     image: string
   }
+  learnMoreLabel: string
 }
 export const CardB = (props: Props) => {
   const pathname = usePathname()
-  const { id, title, slug, description, image, author } = props
+  const { id, title, slug, description, image, author, learnMoreLabel } = props
   return (
     <div
       key={id}
       className="bg-white rounded-t-xl rounded-b-sm shadow border border-black/10 flex-col justify-center items-center inline-flex "
     >
-      <AspectRatio ratio={1.2 / 1}>
+      <AspectRatio ratio={4 / 3}>
         <Image src={image} alt={image} fill className="rounded-t-xl object-cover" />
       </AspectRatio>
       <div className="p-4">
@@ -34,12 +35,14 @@ export const CardB = (props: Props) => {
           <span>{author.name}, </span>
           <span className="text-primary">{new Date(author.createdAt).toLocaleDateString()}</span>
         </div>
-        <div>
-          <h5 className="font-semibold">{title}</h5>
+        <div className="grid grid-cols-1 gap-2 mt-1">
+          <h5 className="text-2xl line-clamp-2" title={title}>
+            {title}
+          </h5>
           <p className="text-gray-500 text-sm">{description}</p>
           <Link href={`${pathname}/${slug}`}>
-            <div className="mt-4 text-sm inline-flex -center text-red-600">
-              <span>Learn More </span> &nbsp; <ArrowRight size={18} />
+            <div className="text-sm inline-flex -center text-red-600">
+              <span>{learnMoreLabel} </span> &nbsp; <ArrowRight size={18} />
             </div>
           </Link>
         </div>

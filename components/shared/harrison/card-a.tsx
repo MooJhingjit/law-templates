@@ -14,8 +14,8 @@ export const CardA = (props: Props) => {
 
   return (
     <SectionContainer>
-      <div className="mb-16 grid grid-cols-1 md:grid-cols-2  gap-x-6">
-        <div className={`${imageOnRight ? 'order-1' : 'order-2'} `}>
+      <div className="mb-16 grid grid-cols-1 md:grid-cols-2  gap-x-12">
+        <div className={`${imageOnRight ? 'order-1' : 'order-2'} my-auto`}>
           <h2 className="text-5xl font-semibold leading-relaxed">{title}</h2>
           <p className="text-gray-500 text-base font-normal">{content}</p>
         </div>

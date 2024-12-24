@@ -1,47 +1,33 @@
 import Breadcrumbs from '@/components/shared/harrison/breadcrumb'
 import { SectionContainer } from '@/components/shared/harrison/section-container'
-import messages from './messages.json'
 import Link from 'next/link'
 import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react'
 import Image from 'next/image'
 import { CardB } from '@/components/shared/harrison/card-b'
-
-type Data = {
-  id: number
-  title: string
-  slug: string
-  description: string
-  image: string
-  author: {
-    name: string
-    createdAt: string
-    image: string
-  }
-}
+import main, { QueryProps } from './queries'
 
 type Props = {
-  title: string
-  content: string
-  relatedData: Data[]
-  author: {
-    name: string
-    createdAt: string
-    image: string
+  queryProps: QueryProps
+  dynamicProps: {
+    learnMoreLabel: string
   }
 }
 
-export const DetailHarrisonC = () => {
-  const { content, title, author, relatedData } = messages
-  return <_DetailHarrisonC content={content} title={title} author={author} relatedData={relatedData} />
+export const DetailHarrisonC = async () => {
+  const queryProps = await main()
+  const dynamicProps = { learnMoreLabel: 'Learn More' }
+  return <_DetailHarrisonC queryProps={queryProps} dynamicProps={dynamicProps} />
 }
 
 export const _DetailHarrisonC = (props: Props) => {
-  const { title, content, author, relatedData } = props
+  const { queryProps, dynamicProps } = props
+  const { data, relatedData } = queryProps
+  const { title, content, author } = data
   return (
     <section className="mb-16">
       <SectionContainer>
-        <div className="grid gird-cols-1 md:grid-cols-4 gap-x-6">
-          <div className="lg:col-span-3 order-1 overflow-scroll">
+        <div className="grid gird-cols-1 md:grid-cols-3 gap-x-6">
+          <div className="lg:col-span-2 order-1 overflow-scroll">
             <Breadcrumbs
               pages={[
                 { name: 'Home', href: '/harrison', current: false },
@@ -85,11 +71,11 @@ export const _DetailHarrisonC = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-1 order-2">
+          <div className="mx-8 lg:col-span-1 order-2">
             <h3 className="font-bold text-1xl leading-relaxed mb-4">Related articles</h3>
             {relatedData.map((item) => (
               <div key={item.id} className="mb-4">
-                <CardB {...item} />
+                <CardB {...item} learnMoreLabel={dynamicProps.learnMoreLabel} />
               </div>
             ))}
           </div>

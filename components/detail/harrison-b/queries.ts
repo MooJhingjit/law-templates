@@ -2,14 +2,15 @@ import data from "./data.json";
 
 export type QueryProps = {
   data: {
-    id: number
+    title: string
+    slug: string
     content: string
     author: {
       name: string
-      location: string
       image: string
+      createdAt: string
     }
-  }[]
+  }
 }
 
 const main = async (): Promise<QueryProps> => {

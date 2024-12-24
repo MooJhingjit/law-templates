@@ -2,11 +2,24 @@ import data from "./data.json";
 
 export type QueryProps = {
   data: {
-    id: number
+    title: string
+    slug: string
     content: string
     author: {
       name: string
-      location: string
+      image: string
+      createdAt: string
+    }
+  }
+  relatedData: {
+    id: number
+    title: string
+    slug: string
+    description: string
+    image: string
+    author: {
+      name: string
+      createdAt: string
       image: string
     }
   }[]

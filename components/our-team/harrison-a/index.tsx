@@ -2,11 +2,15 @@ import Image from 'next/image'
 import { AspectRatio } from '@/components/ui/aspect-ratio'
 import { SectionContainer } from '@/components/shared/harrison/section-container'
 import main, { QueryProps } from './quires'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 type Props = {
   queryProps: QueryProps
   dynamicProps: {
     title: string
+    actionLabel: string
+    acttionUrl: string
   }
 }
 
@@ -14,6 +18,8 @@ export const OurTeamHarrisonA = async () => {
   const queryProps = await main()
   const dynamicProps = {
     title: 'Our Team',
+    actionLabel: 'Free Case Evaluation',
+    acttionUrl: '/harrison',
   }
   return <_OurTeamHarrisonA dynamicProps={dynamicProps} queryProps={queryProps} />
 }
@@ -37,6 +43,11 @@ const _OurTeamHarrisonA = (props: Props) => {
               <p className="text-sm">{item.bio}</p>
             </div>
           ))}
+        </div>
+        <div className="mt-16 mx-auto flex justify-center">
+          <Button className="p-6">
+            <Link href={dynamicProps.acttionUrl}>{dynamicProps.actionLabel}</Link>
+          </Button>
         </div>
       </SectionContainer>
     </section>

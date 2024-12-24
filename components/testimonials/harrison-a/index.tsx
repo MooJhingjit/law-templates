@@ -25,10 +25,7 @@ export const _TestimonialsHarrisonA = (props: Props) => {
   return (
     <section className="py-6 mb-16">
       <SectionContainer>
-        <h2 className=" text-bold text-5xl font-semibold leading-relaxed">{dynamicProps.title}</h2>
-        <div className="mt-8">
-          <Carousel slides={queryProps.data} options={OPTIONS} />
-        </div>
+        <Carousel slides={queryProps.data} options={OPTIONS} title={dynamicProps.title} />
       </SectionContainer>
     </section>
   )

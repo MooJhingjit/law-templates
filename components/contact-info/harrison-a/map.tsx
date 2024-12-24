@@ -19,6 +19,7 @@ export const Map = () => {
         mapContainerStyle={{
           width: '100%',
           height: '400px',
+          borderRadius: '20px',
         }}
         center={center}
         zoom={15}

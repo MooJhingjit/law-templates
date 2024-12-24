@@ -13,7 +13,7 @@ export const HeroHarrisonD = () => {
   const dynamicProps = {
     title: 'Practice Area',
     description:
-      'Harrison is a full-service law firm with a focus on business and commercial law. Our attorneys have experience in a wide range of practice areas, including corporate law, real estate, and litigation. We are dedicated to providing our clients with the highest quality legal services and personalized attention. Contact us today to learn more about how we can help you with your legal needs.',
+      "There are many variations of passages of Lorem Ipsum available, but the  majority have suffered alteration in some form, by injected humour, or  randomised words which don't look even slightly",
     image: '/harrison/practice-area.png',
   }
 

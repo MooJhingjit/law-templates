@@ -8,12 +8,14 @@ type Props = {
   queryProps: QueryProps
   dynamicProps: {
     searchLabel: string
+    learnMoreLabel: string
   }
 }
 export const FeaturesHarrisonF = async () => {
   const queryProps = await main()
   const dynamicProps = {
     searchLabel: 'Search',
+    learnMoreLabel: 'Learn More',
   }
   return <_FeaturesHarrisonF queryProps={queryProps} dynamicProps={dynamicProps} />
 }
@@ -28,7 +30,7 @@ const _FeaturesHarrisonF = (props: Props) => {
           <div className="lg:col-span-3 order-2 lg:order-1">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {queryProps.data.map((item) => (
-                <CardB key={item.id} {...item} />
+                <CardB key={item.id} {...item} learnMoreLabel={dynamicProps.learnMoreLabel} />
               ))}
             </div>
             <div className="mt-6 w-[90%] m-auto md:w-[40%] lg:w-[20%]">

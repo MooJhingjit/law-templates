@@ -36,7 +36,7 @@ export const ContactFormHarrisonB = () => {
   const dynamicProps = {
     title: 'We Have Branches All Over The World',
     description:
-      'We have branches all over the world. Our team of experts are always ready to help you. Contact us today to get started.We have branches all over the world. Our team of experts are always ready to help you. Contact us today to get started.  ',
+      'The gradual accumulation of information about atomic and small-scale behaviour during the first quarter of the 20th century, which gave some indications about how small things do behave, produced an increasing confusion which was Heisenberg, and Born.',
     image: '/harrison/world-map.png',
     formImage: '/harrison/man-posing-studio.png',
     formTitle: 'Request A Free Consultation',
@@ -71,10 +71,10 @@ const ContactFormHarrisonBChild = (props: Props) => {
     <section className="mb-80">
       <div className="bg-[rgb(18,39,58)]">
         <SectionContainer>
-          <div className="grid grid-cols-1  lg:grid-cols-3 lg:px-28 pt-24 gap-6">
-            <div className="text-white col-span-2 lg:mr-36 ">
-              <h2 className="text-5xl font-semibold leading-relaxed">{dynamicProps.title}</h2>
-              <p className="text-sm text-gray-500 mt-4">{dynamicProps.description}</p>
+          <div className="grid grid-cols-1  lg:grid-cols-3 lg:px-12 pt-24 gap-1">
+            <div className="text-white col-span-2 lg:mr-32">
+              <h2 className="text-4xl font-semibold leading-10">{dynamicProps.title}</h2>
+              <p className="text-sm text-gray-200 mt-4">{dynamicProps.description}</p>
             </div>
             <div className="">
               <Image width={364} height={563} className="object-cover" src={dynamicProps.image} alt="World Map" />{' '}
