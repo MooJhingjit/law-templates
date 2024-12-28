@@ -1,0 +1,75 @@
+{
+  "types": [
+    {
+      "id": 1,
+      "name": "General Questions",
+      "slug": "general-questions"
+    },
+    {
+      "id": 2,
+      "name": "Service Offered",
+      "slug": "service-offered"
+    },
+    {
+      "id": 3,
+      "name": "Client Relationship",
+      "slug": "client-relationship"
+    }
+  ],
+  "data": [
+    {
+      "id": 1,
+      "type": 1,
+      "title": "What areas of law does your firm specialze in?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "title": "How long has your law firm been in practice?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "title": "What is your availability?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 4,
+      "type": 2,
+      "title": "Do I need to make an appointment to meet with a lawyer?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 5,
+      "type": 2,
+      "title": "What is your process?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 6,
+      "type": 2,
+      "title": "What is your pricing?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 7,
+      "type": 3,
+      "title": "How do you handle client feedback?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 8,
+      "type": 3,
+      "title": "How do you handle client complaints?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    },
+    {
+      "id": 9,
+      "type": 3,
+      "title": "How do you handle client conflicts?",
+      "description": "Our law firm has proudly served the community for over 20 years, establishing a strong reputation for delivering high-quality legal services. Over the years, we have built long-lasting relationships with clients, helping them resolve their legal challenges efficiently and effectively. Our attorneys have a wealth of experience handling cases in a variety of legal fields, which gives us the flexibility to take on complex and diverse cases.As a firm, we are dedicated to staying up-to-date with evolving laws and regulations, ensuring that we provide the most accurate and current legal advice to our clients. Our longevity in the field speaks to our commitment to excellence, integrity, and results, and we’re proud to be trusted by individuals and businesses alike for their legal needs."
+    }
+  ]
+}

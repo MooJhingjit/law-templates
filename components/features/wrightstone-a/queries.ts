@@ -3,9 +3,8 @@ import data from "./data.json";
 export type QueryProps = {
   data: {
     id: number
-    value: string
+    title: string
     description: string
-    icon: string
   }[]
 }
 

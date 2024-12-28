@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Corporate law",
+      "description": "Every day, we help international businesses determine how best to structure their domestic and overseas operations."
+    },
+    {
+      "id": 2,
+      "title": "Data Privacy",
+      "description": "Every day, we help international businesses determine how best to structure their domestic and overseas operations."
+    },
+    {
+      "id": 3,
+      "title": "Dispute Resoluion/Litigation",
+      "description": "Every day, we help international businesses determine how best to structure their domestic and overseas operations."
+    },
+    {
+      "id": 4,
+      "title": "Employment Lawyers",
+      "description": "Every day, we help international businesses determine how best to structure their domestic and overseas operations."
+    },
+    {
+      "id": 5,
+      "title": "Intellectual Property Law",
+      "description": "Every day, we help international businesses determine how best to structure their domestic and overseas operations."
+    },
+    {
+      "id": 6,
+      "title": "International Law",
+      "description": "Every day, we help international businesses determine how best to structure their domestic and overseas operations."
+    }
+  ]
+}
