@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import './globals.css'
-import { HeaderHarrisonA } from '@/components/header/harrison-a'
-import { FooterHarrisonA } from '@/components/footer/harrison-a'
+import { HeaderWrightstoneA } from '@/components/header/wrightstone-a'
+import { FooterWrightstoneA } from '@/components/footer/wrightstone-a'
 import { Toaster } from '@/components/ui/toaster'
 
 const poppins = Poppins({
@@ -13,8 +13,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Harrison Template',
-  description: 'Harrison Template',
+  title: 'Wrightstone & Partners Template',
+  description: 'Wrightstone & Partners Template',
 }
 
 export default function RootLayout({
@@ -25,10 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className + ' min-h-screen flex flex-col'}>
-        <HeaderHarrisonA />
+        <HeaderWrightstoneA />
         {children}
         <Toaster />
-        <FooterHarrisonA />
+        <FooterWrightstoneA />
       </body>
     </html>
   )

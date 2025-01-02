@@ -2,7 +2,10 @@ import Image from 'next/image'
 import { AspectRatio } from '@/components/ui/aspect-ratio'
 import { SectionContainer } from '@/components/shared/harrison/section-container'
 import Link from 'next/link'
-import main, { QueryProps } from './queries'
+import { Case } from '@/icons/harrison/case'
+import { Certificate } from '@/icons/harrison/certificate'
+import { Stars } from '@/icons/harrison/stars'
+import { World } from '@/icons/harrison/world'
 
 type Props = {
   dynamicProps: {
@@ -13,8 +16,11 @@ type Props = {
     description: string
     actionLabel: string
     actionUrl: string
+    cases: string
+    experience: string
+    happyCustomers: string
+    firmWorldWide: string
   }
-  queryProps: QueryProps
 }
 
 export const HeroHarrisonA = async () => {
@@ -27,15 +33,30 @@ export const HeroHarrisonA = async () => {
       'Our team of experienced attorneys are here to help you with your legal needs. We have a proven track record of success and are dedicated to providing you with the best possible representation. Whether you are facing criminal charges, need help with a family law matter, or are dealing with a personal injury case, we are here to help. Contact us today to schedule a consultation and learn more about how we can help you.',
     actionLabel: 'Free Case Evaluation',
     actionUrl: '#',
+    cases: '450+',
+    experience: '20+',
+    happyCustomers: '3K+',
+    firmWorldWide: '20+',
   }
-  const queryProps = await main()
 
-  return <_HeroHarrisonA dynamicProps={dynamicProps} queryProps={queryProps} />
+  return <_HeroHarrisonA dynamicProps={dynamicProps} />
 }
 
 const _HeroHarrisonA = (props: Props) => {
-  const { dynamicProps, queryProps } = props
-  const { backgroundImage, image, bagde, title, description, actionLabel, actionUrl } = dynamicProps
+  const { dynamicProps } = props
+  const {
+    backgroundImage,
+    image,
+    bagde,
+    title,
+    description,
+    actionLabel,
+    actionUrl,
+    cases,
+    experience,
+    happyCustomers,
+    firmWorldWide,
+  } = dynamicProps
   return (
     <section
       className="py-10 lg:py-0 bg-no-repeat bg-cover"
@@ -68,17 +89,42 @@ const _HeroHarrisonA = (props: Props) => {
           </div>
         </div>
         <div className="transform lg:translate-y-1/2 bg-white shadow border border-black/10 px-6 lg:px-14 container py-6 mt-8 lg:mt-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 rounded-md">
-          {queryProps.data.map((item) => (
-            <div key={item.id} className="flex items-center space-x-2 grow">
-              <div className="bg-red-500 p-4 rounded-full">
-                <Image src={item.icon} width={25} height={25} alt={item.value} />
-              </div>
-              <div>
-                <div className="text-bold text-2xl font-bold">{item.value}</div>
-                <div className="text-gray-500 text-md font-normal">{item.description}</div>
-              </div>
+          <div className="flex items-center space-x-2 grow">
+            <div className="bg-red-500 p-3 rounded-full">
+              <Case className="w-10 h-10" />
             </div>
-          ))}
+            <div>
+              <div className="text-bold text-2xl font-bold">{cases}</div>
+              <div className="text-gray-500 text-md font-normal">Case Solved</div>
+            </div>
+          </div>
+          <div className="flex items-center space-x-2 grow">
+            <div className="bg-red-500 p-3 rounded-full">
+              <Certificate className="w-10 h-10" />
+            </div>
+            <div>
+              <div className="text-bold text-2xl font-bold">{experience}</div>
+              <div className="text-gray-500 text-md font-normal">years of experience</div>
+            </div>
+          </div>
+          <div className="flex items-center space-x-2 grow">
+            <div className="bg-red-500 p-3 rounded-full">
+              <Stars className="w-10 h-10" />
+            </div>
+            <div>
+              <div className="text-bold text-2xl font-bold">{happyCustomers}</div>
+              <div className="text-gray-500 text-md font-normal">Happy Customer</div>
+            </div>
+          </div>
+          <div className="flex items-center space-x-2 grow">
+            <div className="bg-red-500 p-3 rounded-full">
+              <World className="w-10 h-10" />
+            </div>
+            <div>
+              <div className="text-bold text-2xl font-bold">{firmWorldWide}</div>
+              <div className="text-gray-500 text-md font-normal">Firm Worldwide</div>
+            </div>
+          </div>
         </div>
       </SectionContainer>
     </section>

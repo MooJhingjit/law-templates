@@ -1,5 +1,11 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import { SectionContainer } from '@/components/shared/harrison/section-container'
+import { Family } from '@/icons/harrison/family'
+import { InjuredPerson } from '@/icons/harrison/injured-person'
+import { RealEstateLaw } from '@/icons/harrison/real-estate-law'
+import { EstatePlanning } from '@/icons/harrison/estate-planning'
+import { CriminalDefence } from '@/icons/harrison/criminal-defence'
+import { BusinessLaw } from '@/icons/harrison/business-law'
 
 import main, { QueryProps } from './queries'
 
@@ -32,7 +38,13 @@ const _FeaturesHarrisonA = (props: Props) => {
               className="py-12 px-2 lg:px-8 bg-white rounded-lg shadow border border-black/10 flex-col justify-center items-center gap-4 inline-flex"
             >
               <div className="p-4 bg-white rounded-xl shadow flex-col justify-center items-center gap-2.5 flex">
-                <Image width={25} height={25} src={item.icon} alt={item.title} />
+                {/* <Image width={25} height={25} src={item.icon} alt={item.title} /> */}
+                {item.title === 'Personal Injury' && <InjuredPerson className="w-10 h-10" />}
+                {item.title === 'Real Estate Law' && <RealEstateLaw className="w-10 h-10" />}
+                {item.title === 'Estate Planning' && <EstatePlanning className="w-10 h-10" />}
+                {item.title === 'Criminal Defense' && <CriminalDefence className="w-10 h-10" />}
+                {item.title === 'Business Law' && <BusinessLaw className="w-10 h-10" />}
+                {item.title === 'Family Law' && <Family className="w-10 h-10" />}
               </div>
               <div className="flex-col justify-start items-center gap-6 flex">
                 <div className="text-3xl font-medium leading-9">{item.title}</div>
