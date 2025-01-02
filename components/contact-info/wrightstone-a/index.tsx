@@ -21,6 +21,7 @@ type Props = {
     }
     card2: {
       badge: string
+      image: string
       title: string
       location: string
       email: string
@@ -29,6 +30,7 @@ type Props = {
     }
     card3: {
       badge: string
+      image: string
       title: string
       location: string
       email: string
@@ -37,6 +39,7 @@ type Props = {
     }
     card4: {
       badge: string
+      image: string
       title: string
       location: string
       email: string

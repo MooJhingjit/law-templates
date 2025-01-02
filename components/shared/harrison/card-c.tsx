@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -14,13 +13,12 @@ type Props = {
   id: number
   title: string
   description: string
-  icon: string
   slug: string
   actionLabel: string
 }
 
 export const CardC = (props: Props) => {
-  const { id, title, description, icon, slug, actionLabel } = props
+  const { id, title, description, slug, actionLabel } = props
   const pathname = usePathname()
 
   return (

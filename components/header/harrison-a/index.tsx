@@ -8,13 +8,9 @@ type Route = {
   name: string
   href: string
 }
-type Action = {
-  label: string
-  url: string
-}
 
 export type Props = {
-  dynamicProps: { logo: string; logoHref: string; routes: Route[]; action: Action }
+  dynamicProps: { logo: string; logoHref: string; routes: Route[]; actionLabel: string; actionUrl: string }
 }
 
 export const HeaderHarrisonA = () => {
@@ -27,10 +23,8 @@ export const HeaderHarrisonA = () => {
       { name: 'Practice Area', href: '/harrison/practice-area' },
       { name: 'Legal Resource', href: '/harrison/legal-resource' },
     ],
-    action: {
-      label: 'Get In Touch',
-      url: '/harrison/about-us',
-    },
+    actionLabel: 'Get In Touch',
+    actionUrl: '/harrison/about-us',
   }
 
   return <_Header dynamicProps={dynamicProps} />
@@ -38,7 +32,7 @@ export const HeaderHarrisonA = () => {
 
 const _Header = (props: Props) => {
   const { dynamicProps } = props
-  const { logo, logoHref, routes, action } = dynamicProps
+  const { logo, logoHref, routes, actionLabel, actionUrl } = dynamicProps
   return (
     <SectionContainer>
       <nav className="border-b border-gray-300 py-6 z-10 flex items-center justify-between">
@@ -55,7 +49,7 @@ const _Header = (props: Props) => {
           ))}
           <li>
             <Button>
-              <Link href={action.url}>{action.label}</Link>
+              <Link href={actionUrl}>{actionLabel}</Link>
             </Button>
           </li>
         </ul>

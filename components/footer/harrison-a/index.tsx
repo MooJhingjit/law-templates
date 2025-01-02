@@ -13,16 +13,12 @@ type Props = {
     features: { name: string; href: string }[]
     resourcesTitle: string
     resources: { name: string; href: string }[]
-    action: {
-      title: string
-      description: string
-      links: {
-        facebook: string
-        twitter: string
-        instagram: string
-        youtube: string
-      }
-    }
+    actionTitle: string
+    actionDescription: string
+    facebook: string
+    twitter: string
+    instagram: string
+    youtube: string
     copyRight: string
   }
 }
@@ -50,16 +46,12 @@ export const FooterHarrisonA = () => {
       { name: 'Resource 3', href: '/harrison/resource-3' },
       { name: 'Resource 4', href: '/harrison/resource-4' },
     ],
-    action: {
-      title: 'Get In Touch',
-      description: 'We are here to help you. Contact us by email or via our social media channels.',
-      links: {
-        facebook: 'http://facebook.com',
-        twitter: 'http://twitter.com',
-        instagram: 'http://instagram.com',
-        youtube: 'http://youtube.com',
-      },
-    },
+    actionTitle: 'Get In Touch',
+    actionDescription: 'We are here to help you. Contact us by email or via our social media channels.',
+    facebook: 'http://facebook.com',
+    twitter: 'http://twitter.com',
+    instagram: 'http://instagram.com',
+    youtube: 'http://youtube.com',
     copyRight: 'Copyright Harrison Associates, All Rights Reserved',
   }
 
@@ -68,7 +60,21 @@ export const FooterHarrisonA = () => {
 
 export const _FooterHarrisonA = (props: Props) => {
   const { dynamicProps } = props
-  const { routesTitle, featuresTitle, resourcesTitle, routes, features, resources, action, copyRight } = dynamicProps
+  const {
+    routesTitle,
+    featuresTitle,
+    resourcesTitle,
+    routes,
+    features,
+    resources,
+    actionTitle,
+    actionDescription,
+    facebook,
+    twitter,
+    instagram,
+    youtube,
+    copyRight,
+  } = dynamicProps
   return (
     <div>
       <div className="bg-primary py-20 ">
@@ -117,22 +123,20 @@ export const _FooterHarrisonA = (props: Props) => {
               </div>
             </div>
             <div className="lg:m-auto">
-              <div className="text-white text-2xl font-bold  leading-loose tracking-tight">{action.title}</div>
-              <div className="text-white text-sm font-semibold  leading-normal tracking-tight">
-                {action.description}
-              </div>
+              <div className="text-white text-2xl font-bold  leading-loose tracking-tight">{actionTitle}</div>
+              <div className="text-white text-sm font-semibold  leading-normal tracking-tight">{actionDescription}</div>
               <div className="mt-4 justify-start items-center gap-2 inline-flex">
-                <Link href={action.links.facebook} target="_blank">
+                <Link href={facebook} target="_blank">
                   <Facebook />
                 </Link>
-                <Link href={action.links.twitter} target="_blank">
+                <Link href={twitter} target="_blank">
                   <Twitter />
                 </Link>
 
-                <Link href={action.links.instagram} target="_blank">
+                <Link href={instagram} target="_blank">
                   <Instagram />
                 </Link>
-                <Link href={action.links.youtube} target="_blank">
+                <Link href={youtube} target="_blank">
                   <Youtube />
                 </Link>
               </div>
